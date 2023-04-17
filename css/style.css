@@ -4,9 +4,11 @@
 }
 
 .logo{
-    width: 100px;
-    height: 100px;
-
+    height: 100%;
+    background-image: url(../img/logo.svg);
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-position: 10px;
 }
 
 .blue_background{
@@ -82,4 +84,27 @@ th{
 .second-text{
     background-color: goldenrod;
     display: inline-block;
+}
+
+.ending{
+    font-size: 30px;
+    margin: 15px auto;
+    color: grey;
+}
+
+.photo-one{
+    background-image: url(../img/monitor.jpg);
+    width: 312px;
+    height: 208px;
+    color: white;
+    font-size: 30px;
+}
+
+.photo-two{
+    background-image: url(../img/graph.jpg);
+    width: 312px;
+    height: 208px;
+    margin: 15px 0px;
+    color: white;
+    font-size: 30px;
 }
