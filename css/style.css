@@ -21,7 +21,7 @@
 
 h1{
     font-size: 49px; 
-    display: inline;
+    
 }
 
 .font_one{
@@ -51,18 +51,35 @@ i{
 }
 
 .color{
-    color: goldenrod;
+    background-color: goldenrod;
     display: inline;
 }
 
 .unorder-text{
-    margin-right: 20px;
-    
+   margin: 15px auto;
+    width: 100%;
 }
 
 .table{
     margin:15px auto ;
-    width: 80%;
-    
-    
+    width: 100%;
+}
+
+th{
+    background-color: rgb(0, 179, 255);
+    width: 20%;
+    color: white;
+}
+
+.first-color{
+    background-color:rgb(163, 235, 235);
+}
+
+.second-color{
+    background-color:rgb(163, 235, 235);
+}
+
+.second-text{
+    background-color: goldenrod;
+    display: inline-block;
 }
